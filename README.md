@@ -5,8 +5,8 @@ of supporting free and/or open source projects.
 
 ### License
 
-Copyright (C) 2019 Lispy Snake, Ltd.
+Copyright © 2019 Lispy Snake, Ltd.
 
-Lispy Snake name and logo Copyright (C) 2019 Lispy Snake, Ltd. - All rights reserved.
+Lispy Snake name and logo Copyright © 2019 Lispy Snake, Ltd. - All rights reserved.
 
-Remaining content available under the terms of the CC-BY-SA-3.0 license
+Remaining content/code/assets available under the terms of the CC-BY-SA-3.0 license
