@@ -1,0 +1,3 @@
+            <li class="nav-item {{if eq .context.URL .link}}active{{end}}">
+                <a class="nav-link" href="{{.link}}">{{.name}} {{if eq .context.URL .link}}<span class="sr-only">(current)</span>{{end}}</a>
+            </li>
