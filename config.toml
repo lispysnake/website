@@ -1,3 +1,8 @@
 baseURL = "https://lispysnake.com/"
 languageCode = "en-us"
 title = "Coming Soon | Lispy Snake, Ltd."
+
+[params]
+
+    CompanyRegistration = "12179508"
+    CompanyAddress = "International House, 24 Holborn Viaduct, London, United Kingdom, EC1A 2BN"
