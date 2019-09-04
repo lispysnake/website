@@ -1,17 +1,16 @@
-{{ partial "top.html" }}
+{{ partial "top.html" . }}
     <body>
 
-{{ partial "header.html" }}
+{{ partial "header.html" . }}
 
 <main role="main" class="shadow-sm">
 
     <div class="jumbotron">
         <div class="container">
-            <h1 class="display-3">Finally.</h1>
-            <p>A new breed of software development company.</p>
-            <p>F/OSS-centric contract specialists with true pedigree, proven edge and challenging industry norms on the regular.</p>
-            <p><strong>Launch imminent</strong> | Mail the <a href="mailto:ikey.doherty.nospam@lispysnake.com">CEO</a></p>
+            <h1 class="display-3">{{.Page.Title}}</h1>
+            {{ .Page.Content }}
         </div>
     </div>
 </main>
-{{ partial "bottom.html" }}
+
+{{ partial "bottom.html" . }}
