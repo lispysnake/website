@@ -21,7 +21,8 @@ contractual work for customers be open sourced for use by the wider community.
 
 Our core imperative is to provide contracting services to small & medium sized businesses. As a result we can
 save your company money by lending our expertise and skills instead of you having to grow in-house talent
-to meet the next challenge. In a nutshell, we'll stay ahead of the curve so you don't have to.
+to meet the next challenge. In a nutshell, we'll stay ahead of the curve so you don't have to. When time to market
+is critical, don't be left behind.
 
 Additionally, when we create commercial software, we will always seek to open source the project for the
 benefit of the wider community. This will usually happen once the required revenue target has been hit. This will allow
