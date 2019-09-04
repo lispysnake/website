@@ -1,20 +1,13 @@
-{{ partial "top.html" . }}
-    <body>
-
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 <main role="main" class="shadow-sm">
-
-<div class="page-content container">
-
-<br />
-<div class="inner">
-    {{ .Page.Content }}
-</div>
-<br />
-
-</div>
-
+    <div class="page-content container">
+        <br />
+        <div class="inner">
+            {{ .Page.Content }}
+        </div>
+        <br />
+    </div>
 </main>
 
-{{ partial "bottom.html" . }}
+{{ end }}
