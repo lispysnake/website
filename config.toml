@@ -6,3 +6,17 @@ title = "Lispy Snake, Ltd."
 
     CompanyRegistration = "12179508"
     CompanyAddress = "International House, 24 Holborn Viaduct, London, United Kingdom, EC1A 2BN"
+
+[privacy]
+    [privacy.disqus]
+        disable = true
+    [privacy.googleAnalytics]
+        disable = true
+    [privacy.instagram]
+        disable = true
+    [privacy.twitter]
+        disable = true
+    [privacy.vimeo]
+        disable = true
+    [privacy.youtube]
+        disable = true
