@@ -1,0 +1,12 @@
+{{ partial "top.html" . }}
+    <body>
+
+{{ partial "header.html" . }}
+
+<main role="main" class="shadow-sm">
+
+    {{ .Page.Content }}
+
+</main>
+
+{{ partial "bottom.html" . }}
