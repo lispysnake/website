@@ -15,7 +15,9 @@ title = "Lispy Snake, Ltd."
     [privacy.instagram]
         disable = true
     [privacy.twitter]
-        disable = true
+        disable = false
+        enableDNT = false
+        simple = false
     [privacy.vimeo]
         disable = true
     [privacy.youtube]

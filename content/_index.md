@@ -8,3 +8,11 @@ A new breed of software development company.
 F/OSS-centric contract specialists with true pedigree, proven edge and challenging industry norms on a regular basis.
 
 **Launch imminent** | Mail the [CEO](mailto:ikey.doherty.nospam@lispysnake.com)
+
+
+
+----
+
+## Operations
+
+{{%twitter 1169576663799205888%}}
