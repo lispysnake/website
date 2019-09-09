@@ -9,7 +9,13 @@
                     {{ range .Paginator.Pages }}
                     <tr>
                             <td><a href="{{.Permalink}}" class="title text-muted h4">{{.LinkTitle}}</a><br />{{.Summary}}</td>
-                            <td>{{.PublishDate}}</td>
+                            <td>
+                            {{ range .Params.authors }}
+                                {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+                                    Written by {{ .Params.name }}
+                                {{ end }}
+                            {{ end }}
+</td>
                     </tr>
                     {{ end }}
             </table>
