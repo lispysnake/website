@@ -22,3 +22,8 @@ title = "Lispy Snake, Ltd."
         disable = true
     [privacy.youtube]
         disable = true
+
+[taxonomies]
+    author = "authors"
+    tag = "tags"
+    category = "categories"
