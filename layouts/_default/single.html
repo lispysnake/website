@@ -7,6 +7,11 @@
             {{ .Page.Content }}
         </div>
         <br />
+        {{ range .Params.authors }}
+            {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+                Written by {{ .Params.name }}
+            {{ end }}
+        {{ end }}
     </div>
 </main>
 
