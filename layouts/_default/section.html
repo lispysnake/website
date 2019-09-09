@@ -5,17 +5,16 @@
         <br />
         <div class="inner">
             {{ .Content }}
-            <ul class="contents">
+            <table class="table table-striped">
                     {{ range .Paginator.Pages }}
-                    <li>
-                            <a href="{{.Permalink}}">{{.Title}}</a>
-                            <b>{{ .Title }}</b>
-                            <b>{{ .Summary}}</b>
-                    </li>
+                    <tr>
+                            <td><a href="{{.Permalink}}" class="title text-muted h4">{{.LinkTitle}}</a><br />{{.Summary}}</td>
+                            <td>{{.PublishDate}}</td>
+                    </tr>
                     {{ end }}
+            </table>
             </ul>
         </div>
-        {{ template "_internal/pagination.html" . }}
 
         <br />
     </div>
