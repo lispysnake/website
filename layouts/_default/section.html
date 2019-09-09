@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<main role="main" class="shadow-sm">
+    <div class="page-content container">
+        <br />
+        <div class="inner">
+            {{ .Content }}
+            <ul class="contents">
+                    {{ range .Paginator.Pages }}
+                    <li>
+                            <a href="{{.Permalink}}">{{.Title}}</a>
+                            <b>{{ .Title }}</b>
+                            <b>{{ .Summary}}</b>
+                    </li>
+                    {{ end }}
+            </ul>
+        </div>
+        {{ template "_internal/pagination.html" . }}
+
+        <br />
+    </div>
+</main>
+
+{{ end }}
