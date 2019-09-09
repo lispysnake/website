@@ -9,9 +9,10 @@
         <br />
         {{ range .Params.authors }}
             {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
-                Written by {{ .Params.name }} ({{.Params.role}})
+                <span class="badge badge-success">{{ .Params.name }} ({{.Params.role}})</span>
             {{ end }}
         {{ end }}
+        <br />{{ dateFormat "Monday, Jan 3, 2006" .Date | safeHTML  }}
     </div>
 </main>
 
