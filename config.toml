@@ -7,6 +7,9 @@ title = "Lispy Snake, Ltd."
     CompanyRegistration = "12179508"
     CompanyAddress = "International House, 24 Holborn Viaduct, London, United Kingdom, EC1A 2BN"
 
+[permalinks]
+    blog = "/blog/:year/:month/:day/:title/"
+
 [privacy]
     [privacy.disqus]
         disable = true
