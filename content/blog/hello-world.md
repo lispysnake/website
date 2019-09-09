@@ -25,11 +25,11 @@ we'll also open source our game titles.
 #### Why would you even...?
 
 Free & open source rules. We love it, and we have some serious FOSS pedigree experience. We believe that giving back will benefit ourselves, you,
-and other creators out there by lending our technical knowhow and code. Code talks, bullshit walks.
+and other creators out there by lending our technical knowhow and code. Code talks, bull\*\*\*t walks.
 
 #### So.. "Linux support" ?
 
-We know it, you know it, Linux support is promised all the time, and rarely is it actually delivered on. But it does make for a bitching Kickstarter goal.
+We know it, you know it, Linux support is promised all the time, and rarely is it actually delivered on. But it does make for a bi\*\*\*\*ng Kickstarter goal.
 We actually use and understand Linux on a daily basis, so it's important to us that it .. y'know, actually works on Linux. We're looking at other platforms
 in future outside of the so-called "PC market".
 
