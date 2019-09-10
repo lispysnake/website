@@ -7,7 +7,7 @@ authors: [ikey]
 
 Hello, world, from everyone here at **Lispy Snake, Ltd.**. As indicated on our landing page, everything is still very much **under construction**.
 It's going to take us a little while to get the website fully completed, but in the meantime, we've launched an initial blog. This would be a perfect
-opportunity for us to introduce ourselves to you, the rest of the world.
+opportunity for us to introduce ourselves to you, the rest of the world.<!--more-->
 
 #### Who or what is Lispy Snake?
 

@@ -5,22 +5,28 @@
         <br />
         <div class="inner">
             {{ .Content }}
-            <table class="table table-striped">
+
+            <div class="card-group">
                     {{ range .Paginator.Pages }}
-                    <tr>
-                            <td><a href="{{.Permalink}}" class="title text-muted h4">{{.LinkTitle}}</a><br />{{.Summary}}</td>
-                            <td>
-                            {{ range .Params.authors }}
-                                {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
-                                    <span class="badge badge-success">{{ .Params.name }} ({{.Params.role}})</span>
-                                {{ end }}
-                            {{ end }}
-                            <br />{{ dateFormat "Monday, Jan 3, 2006" .Date | safeHTML  }}
-</td>
-                    </tr>
+                    <div class="card shadow-sm">
+                            <div class="card-body">
+                                    <h5 class="card-title">{{.Title}}</h5>
+                                    <div class="text-muted">{{ dateFormat "Monday, Jan 3, 2006" .Date | safeHTML  }}</div>
+                                    <p>{{.Summary}} </p>
+                                    <div>
+                                        <a href="{{.Permalink}}" class="stretched-link" alt="Read more">Read more…</a>   
+                                    </div>
+                                    <div style="float: right;">
+                                        {{ range .Params.authors }}
+                                                {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+                                                <span class="badge badge-success text-right">{{ .Params.name }} ({{.Params.role}})</span>
+                                                {{ end }}
+                                        {{ end }}
+                                    </div>
+                            </div>
+                    </div>
                     {{ end }}
-            </table>
-            </ul>
+            </div>
         </div>
 
         <br />
