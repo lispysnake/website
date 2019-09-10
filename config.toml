@@ -1,6 +1,9 @@
 baseURL = "https://lispysnake.com/"
 languageCode = "en-us"
 title = "Lispy Snake, Ltd."
+enableRobotsTXT = true
+canonifyURLs = true
+author = ["Ikey Doherty"]
 
 [params]
 
