@@ -8,11 +8,3 @@ A game development studio with a twist. Indie-developers with proven F/OSS pedig
 ecosystem. We're working on a title right now, so we're super busy, but website updates are in the works!
 
 **Mail the [CEO](mailto:ikey.doherty.nospam@lispysnake.com)**
-
-
-
-----
-
-## Operations
-
-{{%twitter 1170637132949573633%}}
