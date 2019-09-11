@@ -50,4 +50,4 @@ we will. Plus, our blog is lacking pagination.
 {{<tenor 4402733 "cats-kittens-wait-pet-ill-wait-gif-4402733">}}
 
 
-Oh, you could follow us on [{{<fontawesome twitter>}} Twitter](https://twitter.com/LispySnakeLtd) or check back here for updates.
+Oh, you could follow us on [{{<fontawesome fab fa-twitter>}} Twitter](https://twitter.com/LispySnakeLtd) or check back here for updates.

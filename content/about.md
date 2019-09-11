@@ -15,7 +15,7 @@ We're huge believers in Free and/or Open Source Software, seeking to reuse and i
 wherever possible. As we develop components required for our games, we'll open source them for the benefit
 of the wider community. <3
 
-**Did you know** .. this website is open source, and made using F/OSS components? Check our [{{<fontawesome github>}} GitHub](https://github.com/lispysnake/website) repository!
+**Did you know** .. this website is open source, and made using F/OSS components? Check our [{{<fontawesome fab fa-github>}} GitHub](https://github.com/lispysnake/website) repository!
 
 #### Coming Soon
 
