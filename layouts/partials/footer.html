@@ -1,9 +1,17 @@
 <br />
 <footer class="container">
-    <div class="text-muted">
-        <address>
-            Copyright &copy; 2019 <strong>Lispy Snake, Ltd.</strong> | Est. 2019 | Reg No. {{ .Site.Params.CompanyRegistration }}<br />
-            {{ .Site.Params.CompanyAddress }}
-        </address>
+    <div class="container">
+            <div class="row">
+                    <div class="col-8 text-muted">
+                        <address>
+                            Copyright &copy; 2019 <strong>Lispy Snake, Ltd.</strong> | Est. 2019 | Reg No. {{ .Site.Params.CompanyRegistration }}<br />
+                            {{ .Site.Params.CompanyAddress }}
+                        </address>
+                    </div>
+                    <div class="col-4 justify-end text-muted">
+                        <i class="fab fa-github"></i> GitHub
+                        &nbsp;<i class="fab fa-twitter"></i> Twitter
+                    </div>
+            </div>
     </div>
 </footer>
