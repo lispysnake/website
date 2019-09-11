@@ -2,17 +2,21 @@
 
 <main role="main" class="shadow-sm">
     <div class="page-content container">
-        <br />
-        <div class="inner">
-            {{ .Page.Content }}
+        <div class="row">
+            <div class="col-10">
+                {{ .Page.Content }}
+            </div>
+            <div class="col">
+                {{ if hasPrefix .URL "/blog/" }}
+                {{ range .Params.authors }}
+                    {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+                        <span class="badge badge-success">{{ .Params.name }} ({{.Params.role}})</span>
+                    {{ end }}
+                {{ end }}
+                <span class="text-muted">{{ dateFormat "Monday, Jan 3, 2006" .Date | safeHTML  }}</span>
+                {{ end }}
+            </div>
         </div>
-        <br />
-        {{ range .Params.authors }}
-            {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
-                <span class="badge badge-success">{{ .Params.name }} ({{.Params.role}})</span>
-            {{ end }}
-        {{ end }}
-        <br />{{ dateFormat "Monday, Jan 3, 2006" .Date | safeHTML  }}
     </div>
 </main>
 
