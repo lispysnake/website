@@ -10,8 +10,8 @@ please get in touch! We'll try to get back to you as soon as possible.
 {{<fontawesome fas fa-address-card>}} Lispy Snake Ltd., {{<param CompanyAddress>}}
 
 
-{{<fontawesome fas fa-envelope>}} [info@lispysnake.com](mailto:info@lispysnake.com)
+{{<fontawesome fas fa-envelope>}} [{{<param CompanyEmail>}}](mailto:{{<param CompanyEmail>}})
 
-{{<fontawesome fab fa-twitter>}} [Twitter](https://twitter.com/LispySnakeLtd)
+{{<fontawesome fab fa-twitter>}} [Twitter]({{<param SocialTwitter>}})
 
-{{<fontawesome fab fa-github>}} [GitHub](https://github.com/lispysnake)
+{{<fontawesome fab fa-github>}} [GitHub]({{<param SocialGithub>}})

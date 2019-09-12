@@ -9,6 +9,9 @@ author = ["Ikey Doherty"]
 
     CompanyRegistration = "12179508"
     CompanyAddress = "International House, 24 Holborn Viaduct, London, United Kingdom, EC1A 2BN"
+    CompanyEmail = "info@lispysnake.com"
+    SocialGithub = "https://github.com/lispysnake"
+    SocialTwitter = "https://twitter.com/LispySnakeLtd"
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:title/"
