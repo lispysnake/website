@@ -4,21 +4,25 @@ date: 2019-09-04T16:33:51+01:00
 draft: false
 ---
 
-Lispy Snake, Ltd. is a new breed of indie game studio, established in 2019 in the UK.
+**Lispy Snake, Ltd.** is a brand new software development company, estabilished in the UK, 2019.
 We approach software development from a unique angle, building on many, many years of experience.
-This should reflect through in our upcoming titles, so keep your eyes peeled.
+This should reflect through in our upcoming releases, so keep your eyes peeled.
 
+#### Contracting
 
-#### F/OSS Friendly
+We're happy to undertake contract work to help you solve your problems quicker. We have the in-house
+talent to approach software engineering from a unique perspective, which is far more cost and time
+effective than building new skills and teams internally.
 
-We're huge believers in Free and/or Open Source Software, seeking to reuse and improve F/OSS components
-wherever possible. As we develop components required for our games, we'll open source them for the benefit
-of the wider community. <3
+#### Open Source
+
+There are times you really don't need to reinvent the wheel, only reduce the surface friction. With that
+in mind we use and develop open source software, eliminating technical debt from your projects.
 
 **Did you know** .. this website is open source, and made using F/OSS components? Check our [{{<fontawesome fab fa-github>}} GitHub]({{<param SocialGithub>}}) repository!
 
-#### Coming Soon
+#### Games
 
-We're in the very first stages of startup, while an international team is being assembled.
-With that said, we can at least confirm that engine prototyping and storyboarding is under way for our first title.
+As well as developing gaming software, we build games on top of it. We're big believers in eating our own dogfood.
+From time to time we make these games publicly available, with our first public 2D title in the works already.
 
