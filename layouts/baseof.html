@@ -17,7 +17,7 @@
 
         <style>
                 main .page-content {
-                        margin-top: 50px;
+                        margin-top: 60px;
                 }
 
                 /* Sticky footer per the getbootstrap demo */
@@ -114,11 +114,15 @@
 {{ partial "header.html" . }}
 
 <body class="grey-skin">
+    <div class="container">
+
 {{ block "main" . }}
 <h1>POPULATE ME</h1>
 {{ end }}
 
 {{ partial "footer.html" . }}
+
+    </div>
 
         <!-- JQuery -->
         <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
@@ -131,5 +135,7 @@
 
         <!-- FontAwesome support //-->
         <script src="https://kit.fontawesome.com/3510612596.js"></script>
+
+
     </body>
 </html>
