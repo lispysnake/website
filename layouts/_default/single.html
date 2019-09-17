@@ -13,7 +13,7 @@
                         <span class="badge badge-success">{{ .Params.name }} ({{.Params.role}})</span>
                     {{ end }}
                 {{ end }}
-                <span class="text-muted">{{ dateFormat "Monday, Jan 3, 2006" .Date | safeHTML  }}</span>
+                <span class="text-muted">{{ .Date.Format "Monday, January 2, 2006" | safeHTML }}</span>
                 {{ end }}
             </div>
         </div>

@@ -1,7 +1,7 @@
 <div class="card hoverable">
         <div class="card-body">
                 <h5 class="card-title">{{.Title}}</h5>
-                <div class="text-muted">{{ dateFormat "Monday, Jan 3, 2006" .Date | safeHTML  }}</div>
+                <div class="text-muted">{{ .Date.Format "Monday, January 2, 2006" | safeHTML }}</div>
                 <p>{{.Summary}} </p>
                 <div>
                     <a href="{{.Permalink}}" class="stretched-link" alt="Read more">Read more…</a>   
