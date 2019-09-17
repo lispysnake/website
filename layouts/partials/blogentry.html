@@ -1,0 +1,17 @@
+<div class="card hoverable">
+        <div class="card-body">
+                <h5 class="card-title">{{.Title}}</h5>
+                <div class="text-muted">{{ dateFormat "Monday, Jan 3, 2006" .Date | safeHTML  }}</div>
+                <p>{{.Summary}} </p>
+                <div>
+                    <a href="{{.Permalink}}" class="stretched-link" alt="Read more">Read more…</a>   
+                </div>
+                <div style="float: right;">
+                    {{ range .Params.authors }}
+                            {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+                            <span class="badge badge-success text-right">{{ .Params.name }} ({{.Params.role}})</span>
+                            {{ end }}
+                    {{ end }}
+                </div>
+        </div>
+</div>
