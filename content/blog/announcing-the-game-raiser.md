@@ -10,6 +10,10 @@ startup strategy, we're launching _The Game Raiser_ campaign. This will allow
 us to develop our open source engine and first game title quickly whilst retaining
 independence from investors. The best part of that? You.<!--more-->
 
+{{<tenor 5625959 "frankenstein-its-alive-gif-5625959">}}
+
+
+
 ## The Campaign
 
 We're selling *1,000* licenses that will give lifetime access to all of our
