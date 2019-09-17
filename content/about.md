@@ -26,3 +26,21 @@ in mind we use and develop open source software, eliminating technical debt from
 As well as developing gaming software, we build games on top of it. We're big believers in eating our own dogfood.
 From time to time we make these games publicly available, with our first public 2D title in the works already.
 
+
+#### Expertise
+
+Our company is dedicated to staying on the leading-edge of software engineering practices, challenging the
+industry norms on a daily basis. Notably, we're experts in **modern C development**, [Golang](https://golang.org/) applications
+and [Python](https://www.python.org/) services. We also have extensive experience in low level [Linux](https://www.linux.com/what-is-linux/) engineering, from
+toolchain bootstrap all the way up to the desktop.
+
+We specialise in the following:
+
+ - Linux distribution engineering
+ - Django services + sites
+ - Site scalability
+ - Cloud
+ - Microservice architecture
+ - Back-office development
+ - Backend engineering
+ - Data Processing
