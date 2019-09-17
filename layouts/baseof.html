@@ -16,9 +16,38 @@
         <link href="/css/mdb.min.css" rel="stylesheet">
 
         <style>
+                * {
+                    box-sizing: border-box;
+                }
+
+
+                *:before,
+                *:after {
+                    box-sizing: border-box;
+                }
+    
+                main  {
+                        min-height: 100vh;
+                        overflow: hidden;
+                        position: relative;
+                        padding-bottom: 100px;
+                        display: block;
+                }
+
                 main .page-content {
                         margin-top: 60px;
-                        margin-bottom: 80px;
+                        padding-bottom: 100px;
+                }
+
+                footer {
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                }
+
+                html, body {
+                    height: 100%;
+                    position: relative;
                 }
         </style>
 
@@ -99,8 +128,6 @@
 {{ block "main" . }}
 <h1>POPULATE ME</h1>
 {{ end }}
-
-{{ partial "footer.html" . }}
 
         <!-- JQuery -->
         <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
