@@ -1,5 +1,5 @@
 baseURL = "https://lispysnake.com/"
-languageCode = "en-us"
+languageCode = "en-gb"
 title = "Lispy Snake, Ltd."
 enableRobotsTXT = true
 canonifyURLs = true
