@@ -12,7 +12,7 @@ Lispy Snake, Ltd. We're offering a lifetime license for all of our upcoming
 
 There are only *1,000* licenses available during this run. This bootstrap
 will help get our first title out even quicker, giving you lifetime access
-to all of our upcoming 2D game titles.
+to all of our upcoming 2D game titles. Oh, and Linux support is a given. {{<fontawesome fab fa-linux>}} {{<fontawesome fa fa-heart>}}
 
 {{<paypal_2d_game>}}
 

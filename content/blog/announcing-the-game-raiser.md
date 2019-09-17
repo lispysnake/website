@@ -24,6 +24,7 @@ target, we can avoid relying on private investors and retain independence,
 whilst speeding up the timeline significantly.
 
 We'll ensure frequent updates of the blog and provide demos as soon as possible.
+Oh, and Linux support is a given. {{<fontawesome fab fa-linux>}} {{<fontawesome fa fa-heart>}}
 
 ## First Title
 
