@@ -12,6 +12,7 @@ author = ["Ikey Doherty"]
     CompanyEmail = "info@lispysnake.com"
     SocialGithub = "https://github.com/lispysnake"
     SocialTwitter = "https://twitter.com/LispySnakeLtd"
+    SocialMastodon = "https://mastodon.cloud/@lispysnake"
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:title/"
