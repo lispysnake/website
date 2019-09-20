@@ -48,3 +48,5 @@ For the mean time, however, we're pivoting back to engine work. Stay tuned, exci
 ## A Final Word
 
 We just want to extend a massive thank you to everyone who's bought a Lifetime License for 2D Titles from Lispy Snake. Stay awesome. {{<fontawesome fa fa-heart>}}
+
+{{<paypal_2d_game>}}
