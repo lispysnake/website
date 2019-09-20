@@ -12,8 +12,9 @@ link that purchase to your license.
 
 In future we'll allow user accounts on the website, which will automatically
 enable access for your paypal email address for your lifetime license.
-You should receive a reply in the next 24 hours after purchasing a title
-explaining the next steps.
+
+Additionally, you should have received a copy of your license key by now.
+If you have not, please {{<fontawesome fas fa-envelope>}} [contact us](mailto:{{<param CompanyEmail>}}) to rectify this.
 
 With your support, we all help to support the indie game development
 market. Stay tuned for more blogposts and announcements in the near
