@@ -42,3 +42,5 @@ license key is.
 Obviously, the current tool is quite simple and shouldn't be relied on by outside parties as we're planning big changes. Amongst them, schema migrations and versioning are included.
 The eventual goal is a microservice, which performs license allocation requests when all conditions are satisfied, as well as providing license *verification* APIs. We're considering
 time-limited license types with a default duration, which would allow for corner cases such as "30 day passes".
+
+For the mean time, however, we're pivoting back to engine work. Stay tuned, exciting updates to come!
