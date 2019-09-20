@@ -1,5 +1,5 @@
 ---
-title: "Lispy License: a Thingy What Does Stuff (TM)"
+title: "Lispy License: A Thingy What Does Stuff (TM)"
 date: 2019-09-20T17:26:54+01:00
 draft: false
 authors: [ikey]
@@ -44,3 +44,7 @@ The eventual goal is a microservice, which performs license allocation requests 
 time-limited license types with a default duration, which would allow for corner cases such as "30 day passes".
 
 For the mean time, however, we're pivoting back to engine work. Stay tuned, exciting updates to come!
+
+## A Final Word
+
+We just want to extend a massive thank you to everyone who's bought a Lifetime License for 2D Titles from Lispy Snake. Stay awesome. {{<fontawesome fa fa-heart>}}
