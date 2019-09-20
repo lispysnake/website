@@ -12,6 +12,8 @@ way to issue unique license keys for our pre-sale licenses. Our constraint at th
 those lucky early adopters should now have received their license keys to the email address listed via the PayPal transaction. You'll need this key in future when you
 want to download and play our upcoming 2D titles (More on that during the next few days..)
 
+{{<figure_screenshot image="/lispy-license-a-thing-what-does-stuff/screenshot_tool" caption="lispylicense tool in action">}}
+
 ## lispylicense
 
 We named the project `lispylicense`, which you can find over on [{{<fontawesome fab fa-github>}} GitHub](https://github.com/lispysnake/lispylicense). Promise: The tool is better than
