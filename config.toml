@@ -31,7 +31,7 @@ author = ["Ikey Doherty"]
     [privacy.vimeo]
         disable = true
     [privacy.youtube]
-        disable = true
+        privacyenhanced = true
 
 [taxonomies]
     author = "authors"
