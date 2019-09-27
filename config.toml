@@ -4,6 +4,7 @@ title = "Lispy Snake, Ltd."
 enableRobotsTXT = true
 canonifyURLs = true
 author = ["Ikey Doherty"]
+paginate = 4
 
 [params]
 
