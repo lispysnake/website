@@ -29,6 +29,7 @@ limited to:
  - [PayPal](https://www.paypal.com/uk/webapps/mpp/ua/privacy-full)
  - [Tenor](https://tenor.com/legal-terms)
  - [Twitter](https://twitter.com/en/privacy)
+ - [YouTube](https://policies.google.com/privacy?hl=en-US)
 
 The above links will take you to the terms of service and/or privacy policy for those websites.
 As such, those particular services **may** set cookies on your machine, or process data separately
