@@ -13,8 +13,11 @@ link that purchase to your license.
 In future we'll allow user accounts on the website, which will automatically
 enable access for your paypal email address for your lifetime license.
 
-Additionally, you should have received a copy of your license key by now.
-If you have not, please {{<fontawesome fas fa-envelope>}} [contact us](mailto:{{<param CompanyEmail>}}) to rectify this.
+Additionally, you should receive a copy of your license key within the
+next 24 hours. Currently we're manually assigning license keys to ensure
+everyone is getting their key correctly.
+
+If you have not received this key yet, and it's been more than 24 hours, please {{<fontawesome fas fa-envelope>}} [contact us](mailto:{{<param CompanyEmail>}}) to rectify this.
 
 With your support, we all help to support the indie game development
 market. Stay tuned for more blogposts and announcements in the near
