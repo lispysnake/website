@@ -4,7 +4,7 @@
 
 {{ define "main" }}
 
-<main role="main">
+<main role="main" class="flex-fill">
     <div class="page-content container">
         <br />
         <div class="inner">
@@ -20,9 +20,8 @@
         {{ partial "pagination.html" . }}
 
     </div>
+</main>
 
 {{ partial "footer.html" . }}
-
-</main>
 
 {{ end }}

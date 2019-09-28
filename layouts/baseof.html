@@ -13,39 +13,13 @@
         <link href="/css/mdb.min.css" rel="stylesheet">
 
         <style>
-                * {
-                    box-sizing: border-box;
-                }
-
-
-                *:before,
-                *:after {
-                    box-sizing: border-box;
-                }
-    
-                main  {
-                        min-height: 100vh;
-                        overflow: hidden;
-                        position: relative;
-                        padding-bottom: 200px;
-                        display: block;
-                }
-
-                main .page-content {
-                        margin-top: 60px;
-                        padding-bottom: 200px;
-                }
-
-                footer {
-                    position: absolute;
-                    bottom: 0;
-                    width: 100%;
-                }
-
-                html, body {
-                    height: 100%;
-                    position: relative;
-                }
+            body {
+                min-height: 100vh;
+            }
+            main .page-content {
+                margin-top: 60px;
+                margin-bottom: 20px;
+            }
         </style>
 
         {{ if .IsHome }}
@@ -120,7 +94,7 @@
 
 {{ partial "header.html" . }}
 
-<body>
+<body class="d-flex flex-column">
 
 {{ block "main" . }}
 <h1>POPULATE ME</h1>
