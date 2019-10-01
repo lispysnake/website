@@ -2,19 +2,31 @@
 
 <main role="main" class="flex-fill">
     <div class="page-content container">
-        <div class="row">
-            <div class="col-10">
-                {{ .Page.Content }}
-            </div>
-            <div class="col">
-                {{ if hasPrefix .URL "/blog/" }}
+        {{ if hasPrefix .URL "/blog/" }}
+
+        <div class="row border-bottom py-2 mb-3">
+            <h1 class="col-md-12 col-lg-10">{{.Params.Callout}}</h1>
+            <div class="col-md-12 col-lg-10">
+                <span class="text-muted">{{ .Date.Format "Monday, January 2, 2006" | safeHTML }} - </span>
                 {{ range .Params.authors }}
                     {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
-                        <span class="badge badge-success">{{ .Params.name }} ({{.Params.role}})</span>
+                        <a href="{{.Permalink}}">{{ .Params.name }} ({{.Params.role}})</a>
                     {{ end }}
                 {{ end }}
-                <span class="text-muted">{{ .Date.Format "Monday, January 2, 2006" | safeHTML }}</span>
+            </div>
+            <div class="col-md-12 col-lg-10">
+                Posted in
+                {{ range .Params.categories }}
+                    {{ with $.Site.GetPage "taxonomyTerm" (printf "categories/%s" (urlize .)) }}
+                        <a href="{{.Permalink}}"><span class="badge {{.Params.color}}">{{ .Params.name }}</span></a>
+                    {{ end }}
                 {{ end }}
+            </div>
+        </div>
+        {{ end }}
+        <div class="row">
+            <div class="col-md-12 col-lg-10">
+                {{ .Page.Content }}
             </div>
         </div>
     </div>
