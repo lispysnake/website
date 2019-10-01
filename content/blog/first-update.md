@@ -3,6 +3,8 @@ title: "First Update"
 date: 2019-09-12T22:02:12+01:00
 draft: false
 authors: [ikey]
+categories: [engine, release]
+callout: "First Update"
 ---
 
 We've been super busy here at Lispy Snake HQ, so it's time to give you a quick update as to what's been going on behind the scenes.

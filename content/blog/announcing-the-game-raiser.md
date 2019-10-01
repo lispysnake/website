@@ -3,6 +3,8 @@ title: "Announcing: The Game Raiser"
 date: 2019-09-17T12:01:34+01:00
 draft: false
 authors: [ikey]
+categories: [fundraiser]
+callout: "Teh Game Rayzer"
 ---
 
 We're live! **Lispy Snake, Ltd.** is officially up and running. As part of our

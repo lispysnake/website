@@ -3,6 +3,7 @@ title: "Ryan Intro"
 date: 2019-09-18T09:23:22-06:00
 draft: false
 authors: [ryan]
+callout: "Introduction - Ryan Sipes"
 ---
 
 My name is Ryan Sipes, and I'm happy to announce that I am acting as an advisor and consultant for Lispy Snake! When I first heard that Ikey was working on something new I became intensely curious. I knew from working with him on Evolve OS (which eventually became Solus) - that he was a genius and a workhorse. So, naturally, I wanted to be a part of whatever he was doing. When he told me he was building a game engine and working on his first title, I was a bit shocked but also ready to help out. Most of my high school and college years were spent developing 2D RPGs and so game development is a very interesting to me.

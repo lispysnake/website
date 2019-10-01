@@ -3,6 +3,8 @@ title: "Off Topical Podcast: a Wild Company Appears"
 date: 2019-09-28T00:59:16+01:00
 draft: false
 authors: [ikey]
+categories: [publicity]
+callout: "Off Topical Podcast: a Wild Company Appears"
 ---
 
 This is going to be a very short and sweet post, as it's been a real busy workday here at Lispy Snake HQ!

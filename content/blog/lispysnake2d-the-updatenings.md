@@ -3,9 +3,9 @@ title: "lispysnake2d - The Updatenings"
 date: 2019-09-27T10:01:07+01:00
 draft: false
 authors: [ikey]
+categories: [engine]
+callout: "We Done Made Us Some Progress"
 ---
-
-# We Done Made Us Some Progress
 
 We've been seriously hard at work here at the (virtual) Lispy Snake Towers. This blog post will capture some of our work so far,
 and show you where we're at. Importantly, we'll discuss what the next steps look like. Oh, and there's the usual smattering of

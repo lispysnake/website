@@ -3,9 +3,9 @@ title: "lispysnake2d: Animations"
 date: 2019-09-30T17:32:00+01:00
 draft: false
 authors: [ikey]
+categories: [engine]
+callout: "Shiftin' Pixels Like a Boss"
 ---
-
-# Shiftin' Pixels Like a Boss
 
 We like making things and you like watching them happen. Our most recent introduction into the
 `lispysnake2d` codebase is animations. However, it took more than a few changes to implement it

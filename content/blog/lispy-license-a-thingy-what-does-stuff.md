@@ -3,9 +3,9 @@ title: "Lispy License: A Thingy What Does Stuff (TM)"
 date: 2019-09-20T17:26:54+01:00
 draft: false
 authors: [ikey]
+categories: [release]
+callout: "We Made A Thingy"
 ---
-
-# We Made A Thingy
 
 Further to ~~Teh Game Rayzer~~ [The Game Raiser](/the-game-raiser) campaign, we've been working on a license management tool. Long story short, we needed an effective
 way to issue unique license keys for our pre-sale licenses. Our constraint at this point is simply linking an email to a unique key, and issuing them by email. As a result,
