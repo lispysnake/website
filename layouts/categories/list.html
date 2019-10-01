@@ -1,0 +1,27 @@
+{{ define "title" }}
+<title>{{ .Params.name}} | {{.Site.Title}}</title>
+{{ end }}
+
+{{ define "main" }}
+
+<main role="main" class="flex-fill">
+    <div class="page-content container">
+        <br />
+        <div class="inner">
+            {{ .Content }}
+
+            {{ range .Paginator.Pages }}
+            {{ partial "blogentry.html" . }}
+            <br />
+            {{ end }}
+        </div>
+
+        <br />
+        {{ partial "pagination.html" . }}
+
+    </div>
+</main>
+
+{{ partial "footer.html" . }}
+
+{{ end }}

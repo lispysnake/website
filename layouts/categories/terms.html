@@ -1,0 +1,28 @@
+{{ define "title" }}
+<title>Categories | {{.Site.Title}}</title>
+{{ end }}
+
+{{ define "main" }}
+
+<main role="main" class="flex-fill">
+    <div class="page-content container">
+        <br />
+        <div class="inner">
+            {{ .Content }}
+
+            <div class="card-deck">
+            {{ range .Paginator.Pages }}
+            {{ partial "category.html" . }}
+            {{ end }}
+            </div>
+        </div>
+
+        <br />
+        {{ partial "pagination.html" . }}
+
+    </div>
+</main>
+
+{{ partial "footer.html" . }}
+
+{{ end }}
