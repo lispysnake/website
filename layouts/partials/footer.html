@@ -1,4 +1,4 @@
-<footer class="page-footer small-text elegant-color-dark pt-4">
+<footer class="page-footer small-text pt-4">
     <!--
     <div class="container">
             <div class="row">
@@ -12,15 +12,15 @@
             </div>
     </div>
     //-->
-    <div class="container-fluid text-center text-md-left">
+    <div class="container-fluid text-center text-md-left text-muted">
         <div class="row">
             <!-- Left third //-->
             <div class="col-md-6 mt-md-0 mt-3">
                 <h5 class="text-uppercase">Contact Us</h5>
                 <small><address>{{.Site.Params.CompanyAddress}}</address></small>
-                <a href="{{ .Site.Params.CompanyEmail }}" class="text-small"><i class="fas fa-envelope"></i> {{.Site.Params.CompanyEmail}}</a></small> &nbsp;
-                <a href="{{ .Site.Params.SocialGithub }}" class="text-small"><i class="fab fa-github"></i> GitHub</a></small> &nbsp;
-                <a href="{{ .Site.Params.SocialTwitter }}" class="text-small"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="{{ .Site.Params.CompanyEmail }}" class="text-small text-muted"><i class="fas fa-envelope"></i> {{.Site.Params.CompanyEmail}}</a></small> &nbsp;
+                <a href="{{ .Site.Params.SocialGithub }}" class="text-small text-muted"><i class="fab fa-github"></i> GitHub</a></small> &nbsp;
+                <a href="{{ .Site.Params.SocialTwitter }}" class="text-small text-muted"><i class="fab fa-twitter"></i> Twitter</a>
             </div>
 
             <hr class="clearfix w-100 d-md-none pb-3">
@@ -29,13 +29,13 @@
             <div class="col-md-3 mb-md-0 mb-3">
                 <h5 class="text-uppercase">About</h5>
                 <ul class="list-unstyled">
-                    <li><a href="/about/">Company</a></li>
-                    <li><a href="/privacy/">Privacy</a></li>
+                    <li><a href="/about/" class="text-muted">Company</a></li>
+                    <li><a href="/privacy/" class="text-muted">Privacy</a></li>
                 </ul>
             </div>
 
         </div>
     </div>
 
-    <div class="footer-copyright text-center py-3">Copyright &copy; 2019 <strong>Lispy Snake, Ltd.</strong> | Est. 2019 | Reg No. {{ .Site.Params.CompanyRegistration }}<br /></div>
+    <div class="footer-copyright text-center py-3 text-muted">Copyright &copy; 2019 <strong>Lispy Snake, Ltd.</strong> | Est. 2019 | Reg No. {{ .Site.Params.CompanyRegistration }}<br /></div>
 </footer>
