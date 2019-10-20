@@ -17,21 +17,20 @@ to all of our upcoming 2D game titles. Oh, and Linux support is a given. {{<font
 {{<paypal_2d_game>}}
 
 
-## The Engine
+## Gaming Framework (Serpent)
 
-Once our first title is well underway, we'll open source our game engine.
-This engine is written in modern C with a cross-platform focus, leveraging
-the powerful [SDL](https://libsdl.org) libraries. Additionally we'll have
-modular support libraries in a cohesive namespace, creating a powerful
-and easy-to-use engine.
+**Enter the (miniature) dragon.**
 
-This engine is designed to be highly performant, and reduce time-to-market
-for indie game developers. We're implementing a 3D pipeline using Vulkan
-and OpenGL, but allowing the developer to think and work in 2D.
+We're starting development of a replacement Game Framework to our old
+engine efforts, leveraging best-in-class open source libraries for
+various core functions.
 
-We're not targeting the oversaturated 'game-editor' market, rather, we
-wish to provide an engine designed solely for developers wishing to
-create robust, crossplatform and engaging 2D games quickly.
+That project is called [{{<fontawesome fab fa-github>}} Serpent](https://github.com/lispysnake/serpent)
+and you can watch our development unfold daily.
+
+Our core goals remain to have a 2D gaming framework with a cross-platform
+3D pipeline. We want Indie Developers, like us, to benefit the most from
+a powerful gaming kit on all platforms, with minimal fuss.
 
 ## [The Last Peacekeeper](/the-last-peacekeeper)
 
