@@ -33,10 +33,10 @@ We're not targeting the oversaturated 'game-editor' market, rather, we
 wish to provide an engine designed solely for developers wishing to
 create robust, crossplatform and engaging 2D games quickly.
 
-## The Title
+## [The Last Peacekeeper](/the-last-peacekeeper)
 
-Our first game is helping us to build the engine in parallel. Right now,
-the game has no name, as we're focusing more on the mechanics and story.
+Our first game is helping us to build the engine in parallel. The game is called 
+The Last Peacekeeper and it features amazing mechanics and story.
 Think, 'Battlestar Galactica\*' meets 'Homeworld\*' in an awesome 2D strategy-esque
 mashup. Dark storylines, heartbreaks and hope-crushers are the norm.
 The storyline will take precedence over visuals, taking you on a journey
