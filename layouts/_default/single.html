@@ -27,6 +27,24 @@
         <div class="row">
             <div class="col-md-12 col-lg-10">
                 {{ .Page.Content }}
+              <ul class="pagination pg-dark justify-content-center">
+              {{if .PrevInSection}}
+                <li class="page-item">
+                  <a class="page-link" aria-label="Previous" href="{{.PrevInSection.Permalink}}">
+                    <span aria-hidden="true">&laquo; {{.PrevInSection.Title}}</span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                </li>
+              {{end}}
+              {{if .NextInSection}}
+                <li class="page-item">
+                  <a class="page-link" aria-label="Next" href="{{.NextInSection.Permalink}}">
+                    <span aria-hidden="true">{{.NextInSection.Title}} &raquo;</span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                </li>
+              {{end}}
+              </ul>
             </div>
         </div>
     </div>
