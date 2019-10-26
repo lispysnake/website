@@ -103,6 +103,7 @@
         {{ block "title" . }}
         <title>{{.Page.Title}} | {{.Site.Title}}</title>
         {{ end }}
+        <link rel="alternate" type="application/rss+xml" href="/blog/index.xml" title="{{.Site.Title}} Blog">
     </head>
 
 
