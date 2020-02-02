@@ -4,5 +4,5 @@ date: 2019-09-04T15:57:39+01:00
 draft: false
 ---
 
-We're [{{<fontawesome fab fa-github>}} open source](https://github.com/lispysnake) by default - building [cool projects](/blog/2019/10/20/enter-the-miniature-dragon/) and even [cooler games](/the-last-peacekeeper).
-Support us now with The Game Raiser.
+Check out our progress on [serpent!](/blog/2020/02/02/the-slippery-serpent/). We've been so busy we forgot to blog, make sure
+you hit the [news](/blog) while you're here.
