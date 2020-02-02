@@ -10,7 +10,7 @@ For a limited time, we're running an investment crowdfunding opportunity in
 Lispy Snake, Ltd. We're offering a lifetime license for all of our upcoming
 2D game titles, for only $20!
 
-There are only *1,000* licenses available during this run. This bootstrap
+There are only *500* licenses available during this run. This bootstrap
 will help get our first title out even quicker, giving you lifetime access
 to all of our upcoming 2D game titles. Oh, and Linux support is a given. {{<fontawesome fab fa-linux>}} {{<fontawesome fa fa-heart>}}
 
