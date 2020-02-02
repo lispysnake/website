@@ -135,6 +135,11 @@ your awesomeness, and until next time, peace out. <3
 Additionally, resharing our posts and links to our project on [{{<fontawesome fab fa-github>}} GitHub](https://github.com/lispysnake/serpent). would
 be most appreciated! Any pull requests are welcome too.
 
+As part of keeping goals realistic, we'll now only be selling a total of 500
+lifetime licenses. We've sold 77 at the time of writing, and look forward to
+you joining our small club of lifetime license holders for all of our game
+titles!
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VYHL9CEFSNCVA)
 
 [![Donate with Bitcoin](https://en.cryptobadges.io/badge/small/168AkAQszA7mZSv2epzYoPq4qnefiyhAKG)](https://en.cryptobadges.io/donate/168AkAQszA7mZSv2epzYoPq4qnefiyhAKG)
