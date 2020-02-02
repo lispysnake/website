@@ -19,6 +19,19 @@ Let's discuss some seriously meaty updates to [{{<fontawesome fab fa-github>}} s
 
 {{<figure_screenshot_one image="/the-slippery-serpent/Intro">}}
 
+### Recap: What The Fudge is Serpent?
+
+OK so Serpent is our miniature game framework written in the D programming language,
+designed to make it as easy as possible to create games as an indie game dev. It
+leverages best-of-class open source technologies, such as bgfx, SDL, etc, to bring
+you an all-in-one game *kit*. It's not an engine though. Plumbing, not content
+creation.
+
+As a result we've focused on 2D games through a 3D pipeline, compatible with
+OpenGL, Vulkan, DirectX, Metal, etc, thanks to the underlying technologies that
+Serpent is using (chiefly bgfx + SDL).
+
+Check the [{{<fontawesome fab fa-github>}} GitHub page](https://github.com/lispysnake/serpent). page for more details and activity.
 
 ### The Rebasening (TM)
 
@@ -119,6 +132,7 @@ Here's a very quick todo list for our upcoming bits:
  - Add better (async) resource loading
  - Add sound (OpenAL)
  - Add explicit Z-buffer for tiled layers so sprites can go behind tops of buildings. :O
+ - Enable Wayland integration (fairly simpleish.)
 
 As you've noticed with this blogpost, we've gone from talking about things upfront to
 actually getting them done and telling you later. With our upcoming blogposts we'll
