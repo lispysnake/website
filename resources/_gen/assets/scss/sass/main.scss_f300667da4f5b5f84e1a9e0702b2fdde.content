@@ -1,7 +1,7 @@
 a {
   transition: color .5s; }
   a:hover {
-    color: #0c1b33; }
+    color: #0c1b33 !important; }
   a:link, a:visited {
     color: #da5552;
     font-weight: bold; }
