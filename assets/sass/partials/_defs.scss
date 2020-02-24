@@ -1,0 +1,13 @@
+a {
+    transition: color .5s;
+
+    &:hover {
+        color: $blue;
+    }
+
+    &:link,
+    &:visited {
+        color: $red;
+        font-weight: bold;
+    }
+}
