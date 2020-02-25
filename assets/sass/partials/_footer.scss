@@ -1,0 +1,17 @@
+.lispy-footer {
+    background: $blue;
+
+    a {
+        &:hover {
+            color: $red !important;
+        }
+    }
+
+    hr {
+        border-color: yellow;
+    }
+
+    .icons {
+        font-size: 2em;
+    }
+}

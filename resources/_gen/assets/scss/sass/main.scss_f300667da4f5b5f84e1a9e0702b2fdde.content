@@ -20,9 +20,16 @@ a {
 .lispy-nav {
   background: #EEF0F2;
   box-shadow: 0 -5px 15px black; }
-  .lispy-nav a {
-    transition: color .5s; }
-    .lispy-nav a:link, .lispy-nav a:visited {
-      color: #0c1b33; }
-    .lispy-nav a:hover {
-      color: #da5552; }
+  .lispy-nav a:link, .lispy-nav a:visited {
+    color: #0c1b33; }
+  .lispy-nav a:hover {
+    color: #da5552; }
+
+.lispy-footer {
+  background: #0c1b33; }
+  .lispy-footer a:hover {
+    color: #da5552 !important; }
+  .lispy-footer hr {
+    border-color: yellow; }
+  .lispy-footer .icons {
+    font-size: 2em; }

@@ -16,12 +16,10 @@
 }
 
 .lispy-nav {
-    background: #EEF0F2;
+    background: $header;
     box-shadow: 0 -5px 15px black;
 
     a {
-        transition: color .5s;
-
         &:link,
         &:visited {
             color: $blue;
