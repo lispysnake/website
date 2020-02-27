@@ -278,7 +278,7 @@ just stay tuned.
 ### Le Milestone
 
 We've now officially sold more than 100 of our Lifetime 2D Licenses! At the time
-of writing we've sold more than 102 - and this in turn has helped us to power
+of writing we've sold 102 - and this in turn has helped us to power
 through our development goals.
 
 {{<paypal_2d_game>}}
