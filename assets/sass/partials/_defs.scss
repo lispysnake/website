@@ -56,6 +56,22 @@ a {
 }
 
 
+/*
+    Pagination
+*/
+.page-item {
+    &.active {
+        .page-link {
+            border: 1px solid lighten($blue, 20%);
+            background: $blue;
+            color: white;
+
+            &:hover {
+                color: $red !important;
+            }
+        }
+    }
+}
 
 
 

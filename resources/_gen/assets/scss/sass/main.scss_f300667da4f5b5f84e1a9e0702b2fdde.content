@@ -39,6 +39,16 @@ a {
 .authors {
   float: right; }
 
+/*
+    Pagination
+*/
+.page-item.active .page-link {
+  border: 1px solid #1f4786;
+  background: #0c1b33;
+  color: white; }
+  .page-item.active .page-link:hover {
+    color: #da5552 !important; }
+
 .navbar-brand img {
   height: 50px;
   margin-left: 200px;

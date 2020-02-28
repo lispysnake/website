@@ -2,7 +2,7 @@
 {{ if gt $paginator.TotalPages 1 }}
 
 <nav aria-label="Post navigation by page">
-    <ul class="pagination pg-dark justify-content-center">
+    <ul class="pagination justify-content-center">
         <li class="page-item {{if eq $paginator.PageNumber 1 }}disabled{{end}}"><a class="page-link" href="{{$paginator.First.URL}}">First</a></li>
         <li class="page-item {{ if eq $paginator.HasPrev false }}disabled{{end}}">
             <a class="page-link" aria-label="Previous" {{if eq $paginator.HasPrev false}}href="#" {{else}} href="{{$paginator.Prev.URL}}" {{end}}>
