@@ -76,3 +76,8 @@ a {
     border-color: yellow; }
   .lispy-footer .icons {
     font-size: 2em; }
+    .lispy-footer .icons i {
+      color: #EEF0F2;
+      transition: all .5s; }
+      .lispy-footer .icons i:hover {
+        color: #da5552; }

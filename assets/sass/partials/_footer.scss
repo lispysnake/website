@@ -13,5 +13,14 @@
 
     .icons {
         font-size: 2em;
+
+        i {
+            color: $header;
+            transition: all .5s;
+
+            &:hover {
+                color: $red;
+            }
+        }
     }
 }
