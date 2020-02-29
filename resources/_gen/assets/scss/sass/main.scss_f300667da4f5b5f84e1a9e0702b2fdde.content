@@ -9,6 +9,9 @@ a {
     color: #da5552;
     font-weight: bold; }
 
+.container {
+  margin-top: 100px !important; }
+
 /*
     Cards
 */
@@ -60,7 +63,6 @@ a {
 
 .navbar-brand img {
   height: 50px;
-  margin-left: 200px;
   margin-right: 10px;
   vertical-align: middle; }
 
@@ -71,11 +73,14 @@ a {
 
 .lispy-nav {
   background: #EEF0F2;
-  box-shadow: 0 -5px 15px black; }
+  box-shadow: 0 -5px 15px black;
+  position: fixed;
+  width: 100vw;
+  z-index: 9999; }
   .lispy-nav a:link, .lispy-nav a:visited {
     color: #0c1b33; }
   .lispy-nav a:hover {
-    color: #da5552; }
+    color: #da5552 !important; }
 
 .lispy-footer {
   background: #0c1b33; }

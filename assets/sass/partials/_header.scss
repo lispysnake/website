@@ -1,7 +1,6 @@
 .navbar-brand {
     img {
         height: 50px;
-        margin-left: 200px;
         margin-right: 10px;
         vertical-align: middle;
     }
@@ -18,6 +17,9 @@
 .lispy-nav {
     background: $header;
     box-shadow: 0 -5px 15px black;
+    position: fixed;
+    width: 100vw;
+    z-index: 9999;
 
     a {
         &:link,
@@ -26,7 +28,7 @@
         }
 
         &:hover {
-            color: $red;
+            color: $red !important;
         }
     }
 }
