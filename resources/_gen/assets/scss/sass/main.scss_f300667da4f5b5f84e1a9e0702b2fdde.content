@@ -21,6 +21,15 @@ a {
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16); }
   .lispy-card .card-title {
     font-weight: bold; }
+  .lispy-card figure,
+  .lispy-card img {
+    display: block;
+    margin: 15px auto;
+    text-align: center; }
+  .lispy-card img {
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.53), 0 3px 12px rgba(0, 0, 0, 0.26); }
+  .lispy-card pre {
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16); }
 
 /*
     Badges

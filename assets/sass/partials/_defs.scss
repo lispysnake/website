@@ -32,6 +32,22 @@ a {
     .card-title {
         font-weight: bold;
     }
+
+    figure,
+    img {
+        display: block;
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    img {
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.53), 0 3px 12px rgba(0, 0, 0, 0.26);
+    }
+
+    pre {
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
+    }
+
 }
 
 /*
