@@ -62,6 +62,9 @@ a {
 .no-border {
   border: none; }
 
+.no-shadow img {
+  box-shadow: none; }
+
 .pt-45 {
   padding-top: 45px !important; }
 

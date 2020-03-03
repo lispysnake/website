@@ -48,8 +48,9 @@ contracting work, meaning the game development is currently happening
 all of our future titles, and help to significantly reduce time to market
 for our engine and first title.
 
+<div class="no-shadow">
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VYHL9CEFSNCVA)
 
 [![Donate with Bitcoin](https://en.cryptobadges.io/badge/small/168AkAQszA7mZSv2epzYoPq4qnefiyhAKG)](https://en.cryptobadges.io/donate/168AkAQszA7mZSv2epzYoPq4qnefiyhAKG)
-
+</div>
 _\* Some names may be claimed as the property of others._
