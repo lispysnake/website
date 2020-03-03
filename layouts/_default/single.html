@@ -1,7 +1,12 @@
 {{ define "main" }}
 
 <main role="main" class="flex-fill">
-    <div class="page-content container lispy-card py-2 px-5">
+    <div class="page-content container lispy-card py-2 px-5 {{if not (hasPrefix .URL "/blog/")}}pt-45{{end}}">
+    {{ if not (hasPrefix .URL "/blog/") }}
+        <div class="lispy-card-title">
+            {{.Title}}
+        </div>
+    {{ end }}
         {{ if hasPrefix .URL "/blog/" }}
             <div class="row border-bottom py-2 mb-3">
                 <div class="col">

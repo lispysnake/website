@@ -10,11 +10,26 @@ a {
     font-weight: bold; }
 
 .container {
-  margin-top: 100px !important; }
+  margin-top: 120px !important; }
 
 /*
     Cards
 */
+.lispy-card-title {
+  background: #da5552;
+  border: 1px solid #cd2f2c;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35), 0 1px 4px rgba(0, 0, 0, 0.24);
+  color: white;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: -75px;
+  padding: 8px 30px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: auto; }
+
 .lispy-card {
   border: 1px solid #EEF0F2;
   border-radius: 3px;
@@ -33,6 +48,9 @@ a {
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.53), 0 3px 12px rgba(0, 0, 0, 0.26); }
   .lispy-card pre {
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16); }
+
+.pt-45 {
+  padding-top: 45px !important; }
 
 /*
     Badges

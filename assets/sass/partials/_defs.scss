@@ -16,13 +16,29 @@ a {
 }
 
 .container {
-    margin-top: 100px !important;
+    margin-top: 120px !important;
 }
 
 
 /*
     Cards
 */
+.lispy-card-title {
+    background: $red;
+    border: 1px solid darken($red, 10%);
+    box-shadow: 0 1px 5px rgba(0,0,0,0.35), 0 1px 4px rgba(0,0,0,0.24);
+    color: white;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: -75px;
+    padding: 8px 30px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+}
+
 .lispy-card {
     border: 1px solid $header;
     border-radius: 3px;
@@ -51,7 +67,10 @@ a {
     pre {
         box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
     }
+}
 
+.pt-45 {
+    padding-top: 45px !important;
 }
 
 /*
