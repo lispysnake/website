@@ -4,8 +4,6 @@ date: 2019-09-17T11:04:33+01:00
 draft: false
 ---
 
-# The Game Raiser
-
 For a limited time, we're running an investment crowdfunding opportunity in
 Lispy Snake, Ltd. We're offering a lifetime license for all of our upcoming
 2D game titles, for only $20!
@@ -34,7 +32,7 @@ a powerful gaming kit on all platforms, with minimal fuss.
 
 ## [The Last Peacekeeper](/the-last-peacekeeper)
 
-Our first game is helping us to build the engine in parallel. The game is called 
+Our first game is helping us to build the engine in parallel. The game is called
 The Last Peacekeeper and it features amazing mechanics and story.
 Think, 'Battlestar Galactica\*' meets 'Homeworld\*' in an awesome 2D strategy-esque
 mashup. Dark storylines, heartbreaks and hope-crushers are the norm.
