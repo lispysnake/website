@@ -30,6 +30,16 @@ a {
   text-transform: uppercase;
   width: auto; }
 
+.lispy-card-header {
+  background: #0c1b33;
+  border: 1px solid #0c1b33;
+  border-radius: 3px 3px 0 0;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  text-align: center; }
+
 .lispy-card {
   border: 1px solid #EEF0F2;
   border-radius: 3px;
@@ -48,6 +58,9 @@ a {
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.53), 0 3px 12px rgba(0, 0, 0, 0.26); }
   .lispy-card pre {
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16); }
+
+.no-border {
+  border: none; }
 
 .pt-45 {
   padding-top: 45px !important; }
@@ -78,6 +91,16 @@ a {
   color: white; }
   .page-item.active .page-link:hover {
     color: #da5552 !important; }
+
+/*
+    Bootstrap overrides
+*/
+h2,
+h3 {
+  border-bottom: 1px solid #EEF0F2;
+  font-weight: bolder;
+  margin-top: 35px;
+  padding-bottom: 5px; }
 
 .navbar-brand img {
   height: 50px;

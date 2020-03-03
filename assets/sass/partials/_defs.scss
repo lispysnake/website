@@ -39,6 +39,17 @@ a {
     width: auto;
 }
 
+.lispy-card-header {
+    background: $blue;
+    border: 1px solid $blue;
+    border-radius: 3px 3px 0 0;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
 .lispy-card {
     border: 1px solid $header;
     border-radius: 3px;
@@ -67,6 +78,10 @@ a {
     pre {
         box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
     }
+}
+
+.no-border {
+    border: none;
 }
 
 .pt-45 {
@@ -113,5 +128,13 @@ a {
 }
 
 
-
-
+/*
+    Bootstrap overrides
+*/
+h2,
+h3 {
+    border-bottom: 1px solid $header;
+    font-weight: bolder;
+    margin-top: 35px;
+    padding-bottom: 5px;
+}
