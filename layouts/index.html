@@ -1,17 +1,23 @@
 {{ define "main" }}
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
 <main role="main" class="flex-fill">
 
-    <!-- Obnoxious call-out //-->
-    <div class="jumbotron">
-        <div class="container">
-            <h2 class="display-4">So. Much. Awesome.</h2>
-            {{ .Page.Content }}
-              <a href="/the-game-raiser" class="btn btn-primary"><i class="fas fa-star left"></i> Support Us</a>
-        </div>
-    </div>
+
 
     <div class="page-content container">
+
+
+    <div class="img-slick-slider">
+      <div><img src="img/gallery/Autoscale.png" alt="Autoscale"></div>
+      <div><img src="img/gallery/Intro.png" alt=""></div>
+      <div><img src="img/gallery/MangoHUD.png" alt=""></div>
+      <div><img src="img/gallery/PreBatch.png" alt=""></div>
+      <div><img src="img/gallery/titlescreen.png" alt=""></div>
+    </div>
+
+
 
         <!-- TODO: Become basic features //-->
         <div class="card-deck">
@@ -43,6 +49,42 @@
     </div>
 </main>
 
+
+
+
+
+
+<!-- Obnoxious call-out
+<div class="jumbotron">
+    <div class="container">
+        <h2 class="display-4">So. Much. Awesome.</h2>
+        {{ .Page.Content }}
+          <a href="/the-game-raiser" class="btn btn-primary"><i class="fas fa-star left"></i> Support Us</a>
+    </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
 {{ partial "footer.html" . }}
+
+{{ end }}
+
+{{ define "slick" }}
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.img-slick-slider').slick({
+          autoplay: true
+      });
+    });
+</script>
 
 {{ end }}
