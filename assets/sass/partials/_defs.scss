@@ -23,7 +23,8 @@ a {
 /*
     Cards
 */
-.lispy-card-title {
+.lispy-card-title,
+.lispy-card-title-small {
     background: $red;
     border: 1px solid darken($red, 10%);
     box-shadow: 0 1px 5px rgba(0,0,0,0.35), 0 1px 4px rgba(0,0,0,0.24);
@@ -37,6 +38,12 @@ a {
     text-align: center;
     text-transform: uppercase;
     width: auto;
+}
+
+.lispy-card-title-small {
+    font-size: 1em;
+    margin-top: -65px;
+    padding: 5px 25px;
 }
 
 .lispy-card-header {

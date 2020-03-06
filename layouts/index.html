@@ -3,46 +3,54 @@
 <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
 <main role="main" class="flex-fill">
-
-
-
     <div class="page-content container">
 
-
-    <div class="img-slick-slider">
-      <div><img src="img/gallery/Autoscale.png" alt="Autoscale"></div>
-      <div><img src="img/gallery/Intro.png" alt=""></div>
-      <div><img src="img/gallery/MangoHUD.png" alt=""></div>
-      <div><img src="img/gallery/PreBatch.png" alt=""></div>
-      <div><img src="img/gallery/titlescreen.png" alt=""></div>
-    </div>
-
+        <div class="img-slick-slider">
+            <div><img src="img/gallery/titlescreen.png" alt=""></div>
+            <div><img src="img/gallery/Autoscale.png" alt="Autoscale"></div>
+            <div><img src="img/gallery/Intro.png" alt=""></div>
+            <div><img src="img/gallery/MangoHUD.png" alt=""></div>
+            <div><img src="img/gallery/PreBatch.png" alt=""></div>
+        </div>
 
 
-        <!-- TODO: Become basic features //-->
-        <div class="card-deck">
-            <div class="card mb-3 shadow-sm">
-                <div class="card-body">
-                    <h5 class="card-title">Harnessing Open Source</h5>
-                    <p class="card-text">
-                        We're proud of our open source roots as a company. As a result, we build upon open source software for all of our solutions. We also build cool open source projects.
-                    </p>
+        <div class="card-deck mt-5">
+            <div class="row mt-2">
+                <div class="col">
+                    <div class="lispy-card py-2 px-5 pt-45">
+                        <div class="lispy-card-title-small">
+                            Harnessing Open Source
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                We're proud of our open source roots as a company. As a result, we build upon open source software for all of our solutions. We also build cool open source projects.
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card mb-3 shadow-sm">
-                <div class="card-body">
-                    <h5 class="card-title">Building Triple-A Solutions</h5>
-                    <p class="card-text">
-                        We look to empower indie game developers to create the content they dream of, with the tools they actually need. AAA-quality tools, without the price tag.
-                    </p>
+                <div class="col">
+                    <div class="lispy-card py-2 px-5 pt-45">
+                        <div class="lispy-card-title-small">
+                            Building Triple-A Solutions
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                We look to empower indie game developers to create the content they dream of, with the tools they actually need. AAA-quality tools, without the price tag.
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card mb-3 shadow-sm">
-                <div class="card-body">
-                    <h5 class="card-title">Indie Game Developers</h5>
-                    <p class="card-text">
-                        More than anything, we're indie game developers. We're not looking to change the world, just enrich the content and creativity within it.
-                    </p>
+                <div class="col">
+                    <div class="lispy-card py-2 px-5 pt-45">
+                        <div class="lispy-card-title-small">
+                            Indie Game Developers
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                More than anything, we're indie game developers. We're not looking to change the world, just enrich the content and creativity within it.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,7 +90,9 @@
 <script type="text/javascript">
     $(document).ready(function(){
       $('.img-slick-slider').slick({
-          autoplay: true
+          autoplay: true,
+          autoplaySpeed: 4000,
+          dots: true
       });
     });
 </script>

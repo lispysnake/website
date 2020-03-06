@@ -15,7 +15,8 @@ a {
 /*
     Cards
 */
-.lispy-card-title {
+.lispy-card-title,
+.lispy-card-title-small {
   background: #da5552;
   border: 1px solid #cd2f2c;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35), 0 1px 4px rgba(0, 0, 0, 0.24);
@@ -29,6 +30,11 @@ a {
   text-align: center;
   text-transform: uppercase;
   width: auto; }
+
+.lispy-card-title-small {
+  font-size: 1em;
+  margin-top: -65px;
+  padding: 5px 25px; }
 
 .lispy-card-header {
   background: #0c1b33;
@@ -125,6 +131,12 @@ h3 {
     color: #0c1b33; }
   .lispy-nav a:hover {
     color: #da5552 !important; }
+
+.img-slick-slider {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.29), 0 6px 6px rgba(0, 0, 0, 0.33);
+  margin: 0 auto;
+  margin-bottom: 80px !important;
+  width: 700px; }
 
 .lispy-footer {
   background: #0c1b33; }
