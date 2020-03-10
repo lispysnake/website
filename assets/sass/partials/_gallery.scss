@@ -4,3 +4,18 @@
     margin-bottom: 80px !important;
     width: 700px;
 }
+
+.img-caption {
+    background: rgba(0,0,0, .8);
+    border-top: 1px solid rgba(255,255,255, .2);
+    box-shadow: 0 -1px 5px rgba(0,0,0,0.35), 0 -1px 4px rgba(0,0,0,0.24);
+    color: $header;
+    font-weight: bold;
+    height: 40px;
+    margin-top: -40px;
+    padding-top: 8px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
