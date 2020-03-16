@@ -165,3 +165,21 @@ h3 {
       transition: all .5s; }
       .lispy-footer .icons i:hover {
         color: #da5552; }
+
+@media only screen and (max-width: 1200px) {
+  .img-slick-slider {
+    max-width: 100%;
+    overflow: hidden; }
+    .img-slick-slider img {
+      max-width: 100%; }
+  .img-caption {
+    font-size: .9em; }
+  .lispy-card-title {
+    font-size: 1em;
+    margin-top: -65px; }
+  .lispy-card-title-small {
+    font-size: .9em;
+    margin-top: -65px;
+    padding: 5px 25px; }
+  .lispy-card {
+    margin-bottom: 40px; } }
