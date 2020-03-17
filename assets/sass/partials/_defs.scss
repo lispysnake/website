@@ -23,6 +23,12 @@ a {
 /*
     Cards
 */
+.lispy-cards {
+    div {
+        display: block;
+    }
+}
+
 .lispy-card-title,
 .lispy-card-title-small {
     background: $red;
