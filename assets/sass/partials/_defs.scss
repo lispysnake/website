@@ -157,3 +157,23 @@ h3 {
     margin-top: 35px;
     padding-bottom: 5px;
 }
+
+.navbar-toggler {
+    border: none !important;
+
+    span {
+        background: $blue;
+        border-radius: 10px;
+        display: block;
+        height: 5px;
+        margin: 5px 0;
+        width: 30px;
+    }
+}
+
+
+
+
+
+
+

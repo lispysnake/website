@@ -114,6 +114,16 @@ h3 {
   margin-top: 35px;
   padding-bottom: 5px; }
 
+.navbar-toggler {
+  border: none !important; }
+  .navbar-toggler span {
+    background: #0c1b33;
+    border-radius: 10px;
+    display: block;
+    height: 5px;
+    margin: 5px 0;
+    width: 30px; }
+
 .navbar-brand img {
   height: 50px;
   margin-right: 10px;
