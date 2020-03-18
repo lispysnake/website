@@ -9,7 +9,7 @@ callout: "COVID-19 And The Snakes"
 
 Let us not beat around the bush, we live in truly challenging, and frankly, terrifying times. In a departure from the emails
 we've all been getting from every company that ever had our email address, here's a rather more frank post on COVID-19's impact
-on Lispy Snake, Ltd.
+on Lispy Snake, Ltd. I'm writing this post to you on my 31st birthday (cancelled), the day after St Patrick's Day (cancelled).
 
 ### Geolocation
 
