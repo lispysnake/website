@@ -5,6 +5,7 @@ enableRobotsTXT = true
 canonifyURLs = true
 author = ["Ikey Doherty"]
 paginate = 4
+theme = "original"
 
 [params]
 
