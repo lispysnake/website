@@ -1,0 +1,14 @@
+<div class="card hoverable">
+    <div class="view overlay">
+        <img class="card-img-top" src="/img/blog/toolchain-improvements/screenshot.png">
+        <div class="mask rgba-white-slight"></div>
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">{{.Page.Title}}</h4>
+        <a href="{{.Permalink}}" class="stretched-link" alt="Read more">Read more…</a>
+    </div>
+    <div class="card-footer text-muted">
+        {{ .Date.Format "Monday, January 2, 2006" | safeHTML }}
+    </div>
+</div>
+

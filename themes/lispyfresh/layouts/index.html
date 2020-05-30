@@ -6,9 +6,15 @@
 <div class="container page-content">
     <h3>General page crap</h3>
     {{.Page.Content}}
+
+    <div class="card-deck">
+            <!-- Most recent posts //-->
+            {{- range ( where site.RegularPages "Section" "blog" | first 3 ) }}
+            {{ partial "blogentryMini.html" . }}
+            {{ end }}
+    </div>
+
 </div>
-<div class="jumbotron container">
-    <h3>TODO: Recent posts</h3>
-</div>
+
 </main>
 {{ end }}
