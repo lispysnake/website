@@ -28,8 +28,8 @@ The galaxy is a large place and you'll be exploring it either by ship or on-foot
 
 {{<page_content image="/tlp/ship" caption="A space-faring vessel">}}
 
-### Coming Soon...
+### Coming Soon (TM) ...
 
-We'll have more to share on the game as we near our tech demo. For now, if you'd like to support The Last Peacekeeper - you can purchase a license to it and all our future 2D games via our Game Raiser campaign.
+We'll have more to share on the game as we near our tech demo. For now, if you'd like to support The Last Peacekeeper - you can purchase a license to it and all our future games via our Game Raiser campaign.
 
 {{<paypal_2d_game>}}
