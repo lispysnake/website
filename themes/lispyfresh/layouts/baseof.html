@@ -26,8 +26,29 @@
     <link rel="alternate" type="application/rss+xml" href="/blog/index.xml" title="{{.Site.Title}} Blog">
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+        html,
         body {
+            height: 100%;
+            position: relative;
+        }
+        .main-container {
             min-height: 100vh;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            padding-bottom: 180px;
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
         }
         main .page-content {
             margin-top: 100px;
@@ -111,6 +132,7 @@
 
 <body>
 
+<div class="main-container">
 {{ partial "navbar.html" . }}
 
 <!--/.Navbar-->
@@ -133,6 +155,7 @@
 
 {{ partial "footer.html" . }}
 
+</div>
 </body>
 
 </html>
