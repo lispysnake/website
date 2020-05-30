@@ -15,6 +15,8 @@ theme = "lispyfresh"
     SocialGithub = "https://github.com/lispysnake"
     SocialTwitter = "https://twitter.com/LispySnakeLtd"
     SocialMastodon = "https://mastodon.cloud/@lispysnake"
+    SocialYoutube = "https://www.youtube.com/channel/UCuss44_mYG4f011BZP_cknw"
+    SocialItch = "https://lispysnake.itch.io/"
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:title/"

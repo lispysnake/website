@@ -2,5 +2,30 @@
 <nav class="navbar navbar-expand-lg navbar-dark unique-color-dark">
 
   <!-- Navbar brand -->
-  <a class="navbar-brand" href="/"><img src="/img/logo_lines.png" srcset="/img/logo_lines@2x.png 2x" width="15%" height="15%" /></a>
+  <a class="navbar-brand" href="/"><img width="15%" height="15%" src="/img/logo_lines.png" srcset="/img/logo_lines@2x.png 2x" /></a>
+
+    <!-- Toggle button availability //-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsable navigation menu //-->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!-- Links //-->
+        <ul class="navbar-nav">
+            {{ partial "navlink.html" (dict "link" "/" "name" "Home" "context" . ) }}
+            {{ partial "navlink.html" (dict "link" "/download/" "name" "Download" "context" . ) }}
+            {{ partial "navlink.html" (dict "link" "/blog/" "name" "Blog" "context" . ) }}
+        </ul>
+    </div>
+
+    <div>
+        <ul class="navbar-nav mr-auto nav-flex-icons">
+            <li class="nav-item"><a href="{{ .Site.Params.SocialItch }}" class="nav-link"><i class="fab fa-itch-io"></i></a></li>
+            <li class="nav-item"><a href="{{ .Site.Params.SocialGithub }}" class="nav-link"><i class="fab fa-github"></i></a></li>
+            <li class="nav-item"><a href="{{ .Site.Params.SocialTwitter }}" class="nav-link"><i class="fab fa-twitter"></i></a></li>
+            <li class="nav-item"><a href="{{ .Site.Params.SocialYoutube }}" class="nav-link"><i class="fab fa-youtube"></i></a></li>
+            <li class="nav-item"><a href="irc://chat.freenode.net/#serpent-framework" class="nav-link"><i class="fa fa-hashtag"></i></a></li>
+        </ul>
+    </div>
 </nav>

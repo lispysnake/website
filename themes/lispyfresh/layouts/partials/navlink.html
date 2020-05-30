@@ -1,0 +1,13 @@
+{{ $active := false }}
+{{ if ne .link "/" }}
+    {{ if hasPrefix .context.URL .link}}
+        {{ $active = true }}
+    {{ end }}
+{{ else }}
+    {{ if eq .link .context.URL }}
+        {{ $active = true }}
+    {{ end }}
+{{ end }}
+<li class="nav-item {{if $active}}active{{end}}">
+    <a class="nav-link" href="{{.link}}">{{.name}} {{if $active}}<span class="sr-only">(current)</span>{{end}}</a>
+</li>
