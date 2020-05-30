@@ -1,18 +1,32 @@
 {{ define "main" }}
 <main role="main">
-<div class="jumbotron container">
-    <h3>TODO: Talk About Serpent</h3>
-</div>
-<div class="container page-content">
-    {{.Page.Content}}
 
-    <div class="card-deck">
-            <!-- Most recent posts //-->
-            {{- range ( where site.RegularPages "Section" "blog" | first 4 ) }}
-            {{ partial "blogentryMini.html" . }}
-            {{ end }}
+<div class="container page-content">
+
+    <div class="">
+        <div class="z-depth-5">
+            {{ partial "homeCarousel.html" . }}
+        </div>
     </div>
 
+    <br />
+    <br />
+
+    {{.Page.Content}}
+
+    <br />
+    <br />
+    <div>
+        <h3>Latest news</h3>
+        <br />
+        <div class="card-deck">
+                <!-- Most recent posts //-->
+                {{- range ( where site.RegularPages "Section" "blog" | first 4 ) }}
+                {{ partial "blogentryMini.html" . }}
+                {{ end }}
+        </div>
+    </div>
+    <br />
 </div>
 
 </main>
