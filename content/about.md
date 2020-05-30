@@ -4,6 +4,9 @@ date: 2019-09-04T16:33:51+01:00
 draft: false
 ---
 
+{{<logo>}}
+
+
 **Lispy Snake, Ltd** was founded by veteran open source engineer, Ikey Doherty, in 2019.
 Primarily we are a game studio, and we will begin to work on our game titles as and when
 [Serpent](/serpent) reaches sufficient levels of maturity.
