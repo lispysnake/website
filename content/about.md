@@ -29,3 +29,11 @@ We run Linux daily, here. We use it for everything, and it is core to our develo
 As such our framework and titles put Linux first, instead of being a second-class citizen. The net
 result is maximum portability, allowing us to bring Serpent to more platforms, without the headaches
 and bugs.
+
+### {{<fontawesome fa fa-gamepad>}} ..But not **just** Linux
+
+We have huge plans - and those plans involve consoles and all major platforms. Linux is our primary
+platform and developer experience _of choice_, and through the portability approach we'll look to put
+Serpent everywhere it makes sense, empowering indie developers.
+
+Check the [Serpent](/serpent) roadmap - Windows support is coming soon.
