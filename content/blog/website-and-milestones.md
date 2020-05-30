@@ -11,7 +11,7 @@ Well, far be it from us to be idle. We've been internally getting quite
 organised ready for our next stages of development. Oh, and we have some
 public milestones. Woot.
 
-{{<figure_screenshot_one image="/website-and-milestones/bricks">}}
+{{<figure_screenshot_one image="/website-and-milestones/github">}}
 
 ### Website Refresh
 
@@ -39,6 +39,7 @@ We're opening the scope for the license and all license copies (past and present
 be for **all** game types, 2D, 3D, whichever. We're really grateful for the community
 support and it's the least we could do to give a little back.
 
+
 ### Bricks Demo
 
 Alright in fairness, if you've been following us on Twitter, you already knew about this.
@@ -46,6 +47,8 @@ We're working on a quick demo to help further improve Serpent, a Bricks demo. Y'
 drill, hit a ball at the bricks and hope to make them all go away. With this demo we'll
 be extending upon the paddle demo to add badly needed features like particle effects,
 texture recolouring, Windows support, etc.
+
+{{<figure_screenshot_one image="/website-and-milestones/bricks">}}
 
 ### Milestones
 
