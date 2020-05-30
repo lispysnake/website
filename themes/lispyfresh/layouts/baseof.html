@@ -16,6 +16,13 @@
     {{ block "title" . }}
     <title>{{.Page.Title}} | {{.Site.Title}}</title>
     {{ end }}
+
+        <meta property="og:site_name" content="Lispy Snake" />
+        <meta property="og:locale" content="en" />
+        <meta property="og:title" content="{{.Title}}" />
+        <meta property="og:link" content="{{.Permalink}}" />
+        <meta name="keywords" content="lispy snake, lispysnake, ikey doherty, foss, linux, indie, linux gaming, game development, game, open source, linux-steam-integration, desktop, ikey solus" />
+
     <link rel="alternate" type="application/rss+xml" href="/blog/index.xml" title="{{.Site.Title}} Blog">
 
     <style>
@@ -27,6 +34,79 @@
             margin-bottom: 20px;
         }
     </style>
+
+
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Lispy Snake, Ltd",
+            "alternateName": "LISPY SNAKE",
+            "url": "https:\/\/lispysnake.com\/"
+        }
+        </script>
+        {{ if .IsHome }}
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Lispy Snake",
+            "legalName" : "Lispy Snake Ltd.",
+            "url": "https://www.lispysnake.com",
+            "logo": "https://lispysnake.com/img/logo.png",
+            "foundingDate": "2019",
+            "founders": [
+            {
+                "@type": "Person",
+                "name": "Ikey Doherty"
+            }],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "International House, 24 Holborn Viaduct",
+                "addressLocality": "London",
+                "addressRegion": "London",
+                "postalCode": "EC1A2BN",
+                "addressCountry": "UK"
+            },
+           "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "help",
+                "email": "info@lispysnake.com"
+            },
+            "sameAs": [
+                "https://github.com/lispysnake",
+                "https://twitter.com/LispySnakeLtd"
+            ]
+        }
+        </script>
+        {{ else }}
+        <script type="application/ld+json">
+        {
+            "@context" : "http://schema.org",
+            "@type" : "BlogPosting",
+            "mainEntityOfPage": {
+                 "@type": "WebPage",
+                 "@id": {{ printf "%s" .Site.BaseURL }}
+            },
+            "articleSection" : "{{ .Section }}",
+            "name" : "{{ .Title }}",
+            "headline" : "{{ .Title }}",
+            "description" : {{ printf "%s" .Summary | safeHTML}},
+            "inLanguage" : "en-US",
+            "author" : "Ikey Doherty",
+            "creator" : "Lispy Snake, Ltd.",
+            "publisher": "Lispy Snake, Ltd.",
+            "accountablePerson" : "Ikey Doherty",
+            "copyrightHolder" : "Lispy Snake, Ltd.",
+            "copyrightYear" : "{{ .Date.Format "2006" }}",
+            "datePublished": {{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }},
+            "dateModified" : {{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }},
+            "url" : {{ printf "%s" .Permalink }},
+            "wordCount" : "{{ .WordCount }}",
+            "keywords" : [ {{ if isset .Params "tags" }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}"lispy snake", "lispysnake", "ikey doherty", "foss", "linux", "indie", "game development", "game", "open source", "linux-steam-integration", "desktop", "ikey solus" ]
+        }
+        </script>
+        {{ end }}
 </head>
 
 <body>
