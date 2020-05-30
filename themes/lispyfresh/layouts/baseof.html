@@ -18,10 +18,26 @@
     {{ end }}
     <link rel="alternate" type="application/rss+xml" href="/blog/index.xml" title="{{.Site.Title}} Blog">
 
+    <style>
+        body {
+            min-height: 100vh;
+        }
+        main .page-content {
+            margin-top: 160px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 
 <body>
+<!--Navbar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark unique-color-dark">
 
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#"><img src="/img/logo_lines.png" srcset="/img/logo_lines@2x.png 2x" width="15%" height="15%" /></a>
+</nav>
+
+<!--/.Navbar-->
     {{ block "main" . }}
     <h1>POPULATE ME</h1>
     {{ end }}
