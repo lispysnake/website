@@ -5,6 +5,7 @@ draft: false
 authors: [ikey]
 categories: [engine]
 callout: "The Slippery Serpent"
+featuredImage: "/img/blog/the-slippery-serpent/Intro.png"
 ---
 
 Hot damn. It's been a real busy few months. We expected to be back sooner, but

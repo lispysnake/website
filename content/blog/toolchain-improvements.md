@@ -5,6 +5,7 @@ draft: false
 authors: [ikey]
 categories: [engine]
 callout: "Improving the toolchain"
+featuredImage: "/img/blog/toolchain-improvements/screenshot.png"
 ---
 
 What? Two blogposts in the same month? I know, we're on fire. You're welcome. So, we've

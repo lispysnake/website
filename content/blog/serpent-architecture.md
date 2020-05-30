@@ -5,6 +5,7 @@ draft: false
 authors: [ikey]
 categories: [engine]
 callout: "Serpent Architecture Update"
+featuredImage: "/img/blog/serpent-architecture/MangoHUD.png"
 ---
 
 Welcome to the last technical post prior to the release of the Serpent tech demo.

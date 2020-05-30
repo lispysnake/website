@@ -5,6 +5,7 @@ draft: false
 authors: [ikey]
 categories: [release, engine]
 callout: "Alpha Release: Serpent Paddle Demo"
+featuredImage: "/img/blog/serpent-paddle-demo-release/screenshot.png"
 ---
 
 Welcome to the first post in a **long time** from the Lispy Snake Crew! We've been super busy these past
