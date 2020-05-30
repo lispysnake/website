@@ -6,6 +6,11 @@
 <main role="main">
     <div class="container page-content">
         {{ .Page.Content }}
+        <div>
+            {{ range .Paginator.Pages }}
+            {{ partial "blogentry.html" . }}
+            {{ end }}
+        </div>
     </div>
 </main>
 {{ end }}
