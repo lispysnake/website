@@ -6,7 +6,7 @@
         {{ if hasPrefix .URL "/blog/" }}
             <div class="col-12 border-bottom py-2">
                 <div class="row">
-                    <h1>{{.Params.Callout}}</h1>
+                    <h2>{{.Params.Callout}}</h2>
 
                 </div>
                 <div class="row">
@@ -14,7 +14,7 @@
                         <small class="text-muted">{{ .Date.Format "Monday, January 2, 2006" | safeHTML }} - </small>
                         {{ range .Params.authors }}
                             {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
-                                {{ .Params.name }} ({{.Params.role}})
+                                <small>{{ .Params.name }} ({{.Params.role}})</small>
                             {{ end }}
                         {{ end }}
                     </div>&nbsp;&nbsp;
